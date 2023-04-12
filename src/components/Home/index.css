@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) {
+  .part-1 {
+    width: 100%;
+  }
+  .part-2 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mr {
+    background-image: url("https://res.cloudinary.com/dm9tstije/image/upload/v1678857610/scubemain/teal-gradient_or6pac.svg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .mtop {
+    margin-top: 50px;
+  }
+
+  .clogo {
+    width: 100%;
+  }
+  .card-2 {
+    margin-top: 15px;
+  }
+  .con-1 {
+    width: 100%;
+  }
+  .con2 {
+    width: 100%;
+  }
+
+  .description {
+    width: 100%;
+  }
+  .img-con {
+    width: 100%;
+  }
+  .foot-sections {
+    width: 100%;
+  }
+  .scube-reg {
+    width: 100%;
+  }
+  .terms {
+    width: 100%;
+  }
+  .follow-us {
+    width: 100%;
+  }
+  .scubenav-logow {
+    display: none;
+  }
+  .footerstar-img {
+    width: 40% !important;
+  }
+  .folders {
+    width: 100%;
+  }
+  .linaro-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image-part {
+    display: none;
+  }
+  .text-part {
+    width: 100%;
+  }
+  .themes {
+    width: 100%;
+    padding: 10px;
+  }
+  .themes-images {
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .themes-img {
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    object-fit: cover;
+  }
+  .imgborder-d {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+    color: #414a4e !important;
+  }
+  .flex-2 {
+    border-bottom: 1px solid #0000001a;
+  }
+  .technology-head {
+    color: black;
+    margin-bottom: 55px;
+    font-size: 28px;
+  }
+  #navsec {
+    background-color: #fff;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero-section {
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px !important;
+  }
+  .part-1 {
+    width: 60%;
+  }
+  .part-2 {
+    width: 40%;
+  }
+
+  .card-1 {
+    width: 48%;
+  }
+  .card-2 {
+    width: 48%;
+    margin: 0px;
+  }
+  .cards-v {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .con-1 {
+    width: 100%;
+  }
+  .con2 {
+    width: 100%;
+  }
+  .flex-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .images {
+    width: 100%;
+  }
+  .in-img {
+    width: 13%;
+  }
+  .description {
+    width: 45%;
+  }
+  .img-con {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .tech-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .foot-sections {
+    width: 50%;
+  }
+  .foot-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .scube-reg {
+    width: 55%;
+  }
+  .terms {
+    width: 25%;
+  }
+  .follow-us {
+    width: 20%;
+  }
+  .footer-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .folders {
+    width: 79%;
+  }
+  .space-img {
+    width: 100%;
+    height: 100%;
+  }
+  .image-part {
+    display: block;
+    width: 49%;
+  }
+  .text-part {
+    width: 49%;
+  }
+  .themes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .themes-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .themes-card {
+    width: 32%;
+  }
+  .themes-img {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+  .foot-sections {
+    width: 25%;
+  }
+  .foot-page {
+    display: flex;
+  }
+  .scubenav-logo {
+    display: none;
+  }
+  .scubenav-logow {
+    display: inline-block !important;
+    width: 130px;
+  }
+  .flex-d {
+    display: flex;
+  }
+  .con-1 {
+    width: 50%;
+  }
+  .con-2 {
+    width: 50%;
+  }
+  #navsec {
+    position: absolute;
+    top: 0px;
+  }
+  .mr {
+    position: relative;
+  }
+  .imgborder-d {
+    height: 100% !important;
+    padding-top: 50px;
+  }
+  .images {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .images-con {
+    display: block;
+  }
+  .footerstar-img {
+    width: 80% !important;
+  }
+  .folders {
+    width: 24%;
+  }
+  li {
+    color: #fff;
+  }
+  .tab-para li {
+    color: #414a4e;
+  }
+  #navsec {
+    background-color: transparent;
+  }
+  .mtop {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 2560px) {
+  .container-fluid {
+    width: 1310px !important;
+    margin: auto;
+  }
+  #navsec {
+    position: static;
+  }
+}
+
+.images-con {
+  display: none;
+}
+
+.container-f {
+  width: 100%;
+}
+.scubenav-logo {
+  width: 110px;
+  height: 40px;
+}
+.section-2,
+.section-6 {
+  background-color: #f0f3f7;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.scubelogo-img {
+  width: 300px;
+  height: 300px;
+}
+
+.getintouch-but {
+  background-color: rgb(0, 18, 44);
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.hero-section {
+  height: 900px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.d-sec1 {
+  display: flex;
+}
+.head {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+.head-2 {
+  font-size: 25px;
+  color: #ffffff;
+}
+.custom-button {
+  background-color: #414a4e;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.slide-img {
+  width: 200px;
+  height: 300px;
+}
+#carouselExampleIndicators {
+  text-align: center !important;
+}
+
+.card-1 {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.card-2 {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.card-head {
+  font-size: 24px;
+  color: black;
+}
+.card-para-head {
+  font-size: 21px;
+  font-weight: 400;
+}
+p {
+  color: black;
+  font-size: 19px;
+  font-weight: 310;
+}
+svg {
+  width: 20px !important;
+  height: 30px !important;
+}
+.list-type {
+  list-style-type: none;
+}
+.main-points {
+  color: #ffffff;
+}
+
+.but {
+  color: black;
+  font-weight: 800;
+}
+.icon-flex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.images-img {
+  width: 15%;
+  height: 15%;
+}
+.tech-img {
+  width: 20%;
+  height: fit-content;
+}
+.img-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.foot-head {
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.foot-points:hover {
+  color: black;
+}
+.foot-li-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.foot-points {
+  font-size: 16px;
+  font-weight: 310;
+  margin-top: 30px;
+}
+.about-company {
+  font-family: Montserrat, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: 200;
+}
+.b {
+  color: #414a4e !important;
+}
+.foot-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.custom-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tab-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-1 {
+  width: 30%;
+}
+.page-2 {
+  width: 70%;
+}
+.side-img {
+  width: 100%;
+}
+.tab-head {
+  color: black;
+  font-size: 20px;
+}
+.tab-para {
+  color: #414a4e;
+  font-size: 20px;
+}
+.tab-2-content {
+  flex-wrap: wrap;
+}
+.hr-design {
+  background-color: #5e5b5b;
+  height: 1px;
+  position: relative;
+  top: -25px;
+}
+.nav-link {
+  color: black !important;
+}
+.nav-pills .nav-link.active {
+  border-bottom: 3px solid black !important;
+  background-color: #fff !important;
+  color: black !important;
+}
+.onimage-but {
+  text-align: center;
+  position: relative;
+  top: -75px;
+}
+.sp-head {
+  color: black;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 22px;
+  font-weight: 400;
+}
+.pdf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.folders {
+  border: 1px solid black;
+  height: 300px;
+  margin-top: 30px;
+}
+.folder-head {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
+}
+.center-con {
+  position: relative;
+  top: 30%;
+}
+.linaro-img {
+  width: 100px;
+}

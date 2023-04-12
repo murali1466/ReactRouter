@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+header {
+  background-color: snow;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+ul {
+  list-style-type: none;
+}
+.blog-heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+nav ul li a {
+  font-size: 20px;
+  color: black;
+}
+.image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
